@@ -1,0 +1,156 @@
+/* tres pilares de css */
+
+
+/* herencia */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    /* esto no es necesario*/
+}
+
+
+/* especifidad */
+
+div#test span {
+    color: green;
+}
+
+div span {
+    color: blue;
+}
+
+span {
+    color: red;
+}
+
+
+/* cascada */
+
+h1 {
+    text-align: center;
+}
+
+h1 {
+    text-align: right;
+}
+
+
+/* ejemplo de selectores */
+
+
+/*selector*/
+
+h1 {
+    /* propiedad */
+    color: /* Valor de la propiedad */
+    blue;
+}
+
+
+/* ejemplo de selectores descendientes */
+
+header img {
+    width: 40px;
+    height: auto;
+}
+
+
+/* hijos directo */
+
+p>span {
+    background: green;
+}
+
+
+/* hermano siguiente */
+
+h2~img {
+    width: 25%;
+    height: auto;
+}
+
+
+/* ejemplo de selectores agrupados */
+
+ul,
+li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+li {
+    color: red;
+}
+
+
+/* ejemplo de selectores de clase */
+
+span.classy {
+    background-color: DodgerBlue;
+}
+
+
+/* pseudoclases */
+
+a:link {
+    color: red;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+
+/* pseudoclase child */
+
+p em:first-child {
+    color: rgb(51, 56, 50);
+}
+
+p em:last-child {
+    color: blueviolet;
+}
+
+p em:nth-child(2) {
+    color: red;
+}
+
+
+/* pseudoelementos */
+
+div>p:first-child::first-letter {
+    text-transform: uppercase;
+    color: aqua;
+}
+
+.ribbon {
+    background-color: #5BC8F7;
+}
+
+.ribbon::after {
+    content: "Esto es un lenguaje en caja naranja.";
+    background-color: #FFBA10;
+    border-color: black;
+    border-style: dotted;
+}
