@@ -1,5 +1,21 @@
-# Archivos base
+# *PROYECTO FINAL - CURSO MAQUETACIÓN WEB SENA*
 
-codigo del curso de maquetación web con HTML5y CSS3
+En este proyecto se realiza una pagina web con la estructura correcta estilos en css implementando grid y flexbox
 
-Archivos base para la explicación de la clase del curso de maquetacion web
+## Pre-requisitos 📋
+git
+bootstrap
+
+## Construido con 🛠️
+
+- git
+
+- boostrap
+
+- html5
+
+- css3
+
+## Autores ✒️
+Ing Alvaro Rodriguez
+
