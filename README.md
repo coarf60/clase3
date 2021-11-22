@@ -3,8 +3,8 @@
 En este proyecto se realiza una pagina web con la estructura correcta estilos en css implementando grid y flexbox
 
 ## Pre-requisitos 📋
-git
-bootstrap
+- git
+- bootstrap
 
 ## Construido con 🛠️
 
